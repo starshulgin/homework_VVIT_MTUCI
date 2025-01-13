@@ -1,7 +1,9 @@
 def greet(name):
-    return f"Привет, {name}"
-    
-print(greet("vladimir"))
+    print(f"Привет, {name}!")
+
+name = input("Введите ваше имя: ")
+
+greet(name)
 
 def square(number):
     return (number**2)
