@@ -1,0 +1,13 @@
+class Book:
+    def __init__(self,title, author, year):
+        self.title = title
+        self.author = author
+        self.year = year
+
+    def get_info(self):
+        print(f"Имя {self.title} \n"
+              f"Автор {self.author} \n"
+              f"Год создания {self.year}")
+
+info = Book("1984","Джордж Оруэлл","1945")
+info.get_info()
